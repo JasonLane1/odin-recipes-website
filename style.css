@@ -1,0 +1,47 @@
+.list-01 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.font {
+    font-family: Verdana, "Times New Roman", sans-serif;
+    font-size: 14px;
+}
+
+.page-home {
+    text-align: center;
+    background-color: #1d212e;
+    color: wheat;
+    min-height: 100vh;
+}
+
+.border {
+    border: 300px #181b26;
+    border-style: hidden solid hidden solid;
+    margin: 0px;
+    padding: 10px;
+}
+
+.link-underscore {
+    text-decoration: none;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.directions {
+    margin-top: 75px;
+}
