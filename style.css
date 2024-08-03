@@ -1,6 +1,5 @@
 * {
-    borde: 1px solid red;
-    border: 1px solid transparent;
+    /* outline: red solid 1px; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -16,32 +15,47 @@
 
 .logo-text {
     margin-top: -48px;
-    margin-bottom: 6px;
     padding-left: 50px;
+    height: 44px;
 }
 
 .top-bgc {
     background-color: #13356b;
 }
 
-.homepage-button {
-    font-weight: 100;
-    font-size: 22px;
-    margin-top: -40px;
-    margin-left: 1280px;
-    margin-right: 145px;
-}
-
-.homepage-github {
-    font-weight: 100;
-    font-size: 22px;
-    margin-top: -27px;
-    margin-left: 1400px;
-    margin-right: 65px;
-}
-
 .align {
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.header-bar-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-top-bar {
+    margin-top: -35px;
+    padding-right: 50px;
+}
+
+.list-01 {
+    list-style: none;
+}
+
+.list-02 {
+    display: flex;
+    justify-content: center;
+}
+
+.list-02 td {
+    padding: 3px 2px;
+}
+
+.page-cut {
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 8px;
 }
